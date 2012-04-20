@@ -1,0 +1,458 @@
+
+@import "boilerplate-top.less";
+
+/* in use */
+@font-face {
+	font-family: 'GentiumBookBasicItalic';
+	src: url('GenBkBasI-webfont.eot');
+	src: url('GenBkBasI-webfont.woff') format('woff'), url('GenBkBasI-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* in use */
+@font-face {
+	font-family: 'GentiumBookBasicBold';
+	src: url('GenBkBasB-webfont.eot');
+	src: url('GenBkBasB-webfont.woff') format('woff'), url('GenBkBasB-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	width: 960px;
+	margin: 0 auto 0 auto;
+  font: large/1.556 Georgia, "Times New Roman", serif;
+  word-spacing: 0.1em;
+  color: #000;
+  background-color: rgb(248,250,240);
+}
+
+#container {
+	background: url(../gfx/doohicky.png) no-repeat 0px 0px, url(../gfx/doohicky2.png) no-repeat 780px 0px, url(../gfx/doohicky3.png) no-repeat 0px bottom, url(../gfx/doohicky4.png) no-repeat 780px bottom;
+	margin-bottom: 18px;
+	padding-bottom: 1px;
+}
+
+p, ul, ol {
+  font-size: 15px;
+  line-height: 1.5;
+ }
+
+h1, h2, h3, h4, caption, thead th {
+  font-family: "GentiumBookBasicBold";
+  font-weight: normal;
+  color: #625336;
+}
+
+section p, section h1, section h2, section ul, section ol {
+	margin-left: 240px;
+	margin-right: 240px;
+	margin-bottom: 9px;
+}
+
+section {
+	margin-bottom: 36px;
+}
+
+section:first-of-type {
+	margin-top: 36px;
+}
+
+section p {
+	text-align: justify;
+}
+
+a {
+	color: #1d67b1;
+}
+
+em {
+	font-family: GentiumBookBasicItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+
+strong {
+	font-family: GentiumBookBasicBold;
+	font-weight: normal;
+	font-style: normal;
+}
+
+em strong, strong em {
+		font-family: GentiumBookBasicBoldItalic;
+	font-weight: normal;
+	font-style: normal;
+}
+
+hr {
+	border: none;
+	background-color: #743f13;
+	height: 2px;
+	clear: both;
+}
+
+h1, h2, h3 {
+	margin-top: 18px;
+	line-height: 1;
+}
+
+h1:first-of-type, h2:first-of-type, h3:first-of-type {
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 63px;
+	color: black;
+	text-align: center;
+
+	display: block;
+	padding-top: 27px;
+	font-weight: normal;
+	font-style: normal;
+	margin-right: 170px;
+	margin-left: 170px;
+}
+
+h2 {
+	font-size: 150%;
+	color: #743f13;
+}
+
+h3 {
+	font-size: 125%;
+	color: #000;
+}
+
+h4 {
+	font-size: 100%;
+	color: #000;
+	margin-bottom: 9px;
+
+}
+
+figure {
+	text-align: center;
+	margin: 18px 0;
+}
+
+figure img {
+}
+
+figcaption {
+	display: block;
+	font-style: italic;
+	font-size: 14px;
+}
+
+table {
+	margin: 18px auto;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+}
+
+th, td {
+	text-align: left;
+	padding: 4.5px 9px;
+	font-size: 12px;
+}
+
+td.highlight {
+	background-color: #fabc9a;
+}
+
+caption {
+	font-style: italic;
+	color: #743f13;
+}
+
+.left-palign {
+	float: left;
+	margin-left: 230px;
+	margin-right: 9px;
+}
+
+nav {
+	
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+nav ul {  
+	position: relative;
+    margin: 0 auto;  
+    list-style: none;
+    height: 54px;
+}
+
+nav ul li {  
+    display: block;
+    color: #743f13;
+	font-weight: bold;
+    margin: 0;
+    width: 171px;
+    text-align: center;
+	padding: 0;
+	background-color: rgba(218,204,192,1.0);
+    border-left: 1px solid #743f13;
+    border-right: 1px solid #743f13;
+    border-bottom: 4px solid #743f13;
+	font-size: 90%;
+	height: 45px;
+	position: absolute;
+}  
+  
+nav ul li a {
+	display: block;
+	height: 41px;
+	text-decoration: none;  
+	color: black;  
+	font-weight: normal;
+	font-style: normal;
+	background-color: white;
+	line-height: 130%;
+	padding-top: 3px;
+}  
+  
+nav ul li a:visited {
+	color:black;
+}
+  
+nav ul li a:hover{  
+    color: #f00;
+    background: #ddd;
+}  
+
+
+#navhome {
+	left: 17px;
+}
+
+#navhome a {
+	padding-top: 11px;
+	height: 33px;
+	color: black;
+}
+
+#navvstyle {
+	left: 205px;
+}
+
+#navvbrand {
+	left: 393px;
+}
+
+#navqa {
+	left: 581px;
+}
+
+#navmix {
+	left: 769px;
+}
+
+#navmix a {
+	padding-top: 11px;
+	height: 33px;
+}
+
+#primaryad {
+	float: right;
+	margin-right: 18px;
+}
+
+#masthead {
+	font-family: "GentiumBookBasicBold", "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+	font-family: GentiumBookBasicBold;
+	font-size: 400%;
+	text-align: center;
+	margin: 18px 0;
+}
+
+img.left {
+	float: left;
+	margin-right: 9px;
+}
+
+img.right {
+	float: right;
+	margin-left: 9px;
+}
+
+div.center, p.center {
+	text-align: center;
+}
+
+img.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.lcol {
+	width: 460px;
+	float: left;
+	margin: 0;
+}
+
+section.rcol {
+	width: 460px;
+	float: right;
+	margin: 0;
+}
+
+.lcol p, .rcol p {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+aside {
+	width: 200px;
+	float: left;
+	font-size: 90%;
+}
+
+.right {
+	float: right;
+}
+
+aside p {
+	margin-left: 0;
+	margin-right: 0;
+	line-height: 1.5;
+	margin-bottom: 9px;
+	font-size: 90%;
+}
+
+.good {
+	color: green;
+}
+
+.bad {
+	color: red;
+}
+
+div.book {
+	float: left;
+	text-align: center;
+	margin-right: 27px;
+	font-size: 15px;
+}
+
+.jacket {
+	-moz-box-shadow: 3px 3px 5px #888;
+	-webkit-box-shadow: 3px 3px 5px #888;
+	box-shadow: 3px 3px 5px #888;
+}
+
+div.book:last-of-type {
+	margin-right: 0;
+}
+
+
+div.recipes {
+	padding-left: 18px;
+	margin-bottom: 18px;
+	overflow: auto;
+	text-align: center;
+}
+
+
+div.recipe {
+	width: 190px;
+	margin-right: 18px;
+	display: block;
+	float: left;
+	padding: 9px;
+	border: 2px solid #f1ede3;
+	margin-bottom: 18px;
+	text-align: left;
+	background-color: white;
+}
+
+div.recipe.solo {
+	display: inline-block;
+	float: none;
+	margin-right: none;
+}
+
+div.recipe:nth-of-type(4n+4) {
+	margin-right: 0;
+}
+
+div.recipe p {
+	margin-bottom: 9px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 14px;
+	text-align: justify;
+}
+
+div.recipe h3 {
+	margin-bottom: 9px;
+	font-size: 14px;
+}
+
+.recipe div.img {
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+.recipe p.meas {
+	font-style: italic;
+	margin-left: 9px;
+	text-align: left;
+}
+
+.recipe p.cite {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #7e7e7e;
+}
+
+section.brand {
+	border: 1px solid #743f13;
+	border-bottom: 4px solid #743f13;
+	padding: 36px;
+	background-color: white;
+}
+
+section.brand * {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+section.brand ul {
+	margin-left: 30px;
+}
+
+section.brand li {
+	list-style-type: square;
+}
+
+.thumbs {
+	width: 500px;
+	float: right;
+	text-align: right;
+	margin-bottom: 1em;
+}
+
+.thumbs figure {
+	position: relative;
+	display: inline-block;
+	margin-left: 18px;
+}
+
+.thumbs figure img {
+}
+
+.thumbs figure a {
+}
+
+.thumbs figure a img.magnifieroverlay {
+	position: absolute;
+	bottom: 0;
+	right: -5px;
+	z-index: 99;
+}
+
+@import "boilerplate-bottom.less";
