@@ -360,7 +360,7 @@ td {
 body {
   width: 960px;
   margin: 0 auto 0 auto;
-  font: large/1.556 Georgia, "Times New Roman", serif;
+  font: large / 1.556 Georgia, "Times New Roman", serif;
   word-spacing: 0.1em;
   color: #000;
   background-color: #f8faf0;
@@ -701,9 +701,6 @@ section.brand * {
   margin-left: 0;
   margin-right: 0;
 }
-section.brand ul {
-  margin-left: 30px;
-}
 section.brand li {
   list-style-type: square;
 }
@@ -726,6 +723,16 @@ section.brand li {
 }
 aside {
   font-size: 14px;
+}
+.annotation {
+  background-color: #625336;
+  color: white;
+  padding: 1px 0.5em;
+  margin-left: 0.5em;
+  border-radius: 3px;
+  font-size: 65%;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
@@ -824,7 +831,7 @@ aside {
   img {
     max-width: 100% !important;
   }
-  @page  {
+  @page {
     margin: 0.5cm;
   }
   p,
