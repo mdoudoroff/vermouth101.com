@@ -146,6 +146,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/style2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
